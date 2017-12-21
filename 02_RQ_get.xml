@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:cul="http://www.ders.cz/model/cul/0.1" xmlns:soapenv="http://www.w3.org/2003/05/soap-envelope">
+	<soapenv:Header>
+		<wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+			<wsse:UsernameToken wsu:Id="UsernameToken-29" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+				<wsse:Username>AIS</wsse:Username>
+				<wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">PASSWORD</wsse:Password>
+				<wsse:Nonce EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">pP/PYDhzau2HjDR7uKnvBg==</wsse:Nonce>
+				<wsu:Created>2010-08-17T13:43:17.246Z</wsu:Created>
+			</wsse:UsernameToken>
+		</wsse:Security>
+	</soapenv:Header>
+	<soapenv:Body>
+		<cul:nactiDigitalniDokument>
+			<cul:guid>49747c80-6d73-4749-ba8e-923b7399388a</cul:guid>
+			<cul:nactiBinarniData>true</cul:nactiBinarniData>
+			<cul:wsUser>wsUser</cul:wsUser>
+			<cul:format>?</cul:format>
+		</cul:nactiDigitalniDokument>
+	</soapenv:Body>
+</soapenv:Envelope>
